@@ -46,6 +46,7 @@ header{
   float: left;
   width: 200px;
   height: 250px;
+  z-index: 1;
 }
 
 .navi{
@@ -72,6 +73,35 @@ header{
 .navi>li>a:hover{
   background-color: #776d70;
   color: #fff;
+}
+
+.submenu{
+  width: 900px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 190px;
+  z-index: 3;
+}
+
+.submenu>li{
+  float: left;
+  width: 180px;
+  height: 50px;
+  display: inline;
+}
+
+.submenu>li>a{
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.submenu>li>a:hover{
+  background-color: #333;
+  color: #ffff00;
 }
 
 .imgslide{
