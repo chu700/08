@@ -37,12 +37,67 @@ header{
   background-color: pink;
 }
 
+.logo img{
+  float: left;
+  width: 180px;
+  height: 100px;
+  margin-left: 10px;
+}
+
 .menu{
   float: left;
   width: 200px;
   height: 250px;
   z-index: 1;
   background-color: gray;
+}
+
+.navi{
+  float: left;
+  width: 190px;
+  margin-left: 10px;
+  background-color: pink;
+}
+
+.navi>li{
+  float: left;
+  width: 190px;
+  height: 50px;
+}
+
+.navi>li>a{
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  color: #353535;
+}
+
+.navi>li>a:hover{
+  background-color: #776d70;
+  color: #fff;
+}
+
+.submenu{
+  width: 900px;
+  height: 50px;
+  position: relative;
+  top: -50px;
+  left: 190px;
+  z-index: 3;
+}
+
+.submenu>li{
+  float: left;
+  width: 180px;
+  height: 50px;
+  display: inline;
+}
+
+.submenu>li>a{
+  line-height: 50px;
+  font-size: ;
 }
 
 .imgslide{
