@@ -97,7 +97,26 @@ header{
 
 .submenu>li>a{
   line-height: 50px;
-  font-size: ;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.submenu>li>a:hover{
+  background-color: #333333;
+  color: #ffff00;
+}
+
+#menu_bg{
+  width: calc(100% - 200px);
+  height: 250px;
+  top: 150px;
+  left: 200px;
+  background-color: #353535;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
 }
 
 .imgslide{
